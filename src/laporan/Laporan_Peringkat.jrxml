@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="null" language="groovy" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="da585a00-07dc-4feb-9f3c-0ea64777bb5a">
+	<property name="ireport.zoom" value="1.5"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="75"/>
+	<queryString language="SQL">
+		<![CDATA[SELECT
+     karyawan.`nik` AS karyawan_nik,
+     karyawan.`nama` AS karyawan_nama,
+     karyawan.`alamat` AS karyawan_alamat,
+     karyawan.`jenis_kelamin` AS karyawan_jenis_kelamin,
+     hasil.`nik` AS hasil_nik,
+     hasil.`nilai` AS hasil_nilai
+FROM
+     `karyawan` karyawan INNER JOIN `hasil` hasil ON karyawan.`nik` = hasil.`nik`ORDER BY nilai desc]]>
+	</queryString>
+	<field name="karyawan_nik" class="java.lang.String"/>
+	<field name="hasil_nilai" class="java.lang.Float"/>
+	<field name="karyawan_nama" class="java.lang.String"/>
+	<field name="hasil_nik" class="java.lang.String"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="105" splitType="Stretch">
+			<staticText>
+				<reportElement x="97" y="0" width="290" height="44" uuid="43feb157-ce6f-43e7-8eea-527b089eb390"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="30" isBold="true"/>
+				</textElement>
+				<text><![CDATA[GhaWil Cafe & Cofee]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="189" y="84" width="100" height="19" uuid="8956c38c-540f-47f6-98f8-2ed7dfcebf2f"/>
+				<textElement textAlignment="Center"/>
+				<text><![CDATA[+62 2122979722]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="97" y="44" width="290" height="20" uuid="19a85555-e69a-4f8c-a08b-9d1e34e25b33"/>
+				<textElement textAlignment="Center"/>
+				<text><![CDATA[Ruko De Rose, Boulevard, Jl.Boulevard Grand Depok City]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="97" y="64" width="290" height="20" uuid="78d95c07-a1c1-4350-b6b0-ad7f4fe2032e"/>
+				<textElement textAlignment="Center"/>
+				<text><![CDATA[KLMN, Kec.Cilodong, Kota Depok, Jawa Baeat 16412]]></text>
+			</staticText>
+			<line>
+				<reportElement x="0" y="102" width="555" height="1" uuid="0d13df49-0874-4694-85e5-ad14196e4307"/>
+				<graphicElement>
+					<pen lineWidth="2.0" lineStyle="Double"/>
+				</graphicElement>
+			</line>
+			<image>
+				<reportElement x="1" y="0" width="150" height="94" uuid="0d8b2775-55cc-4687-878e-e3e84f7464b1"/>
+				<imageExpression><![CDATA["C:\\Users\\hisakraz\\Documents\\NetBeansProjects\\pemilihan_karyawan\\src\\icon\\logo 2222.png"]]></imageExpression>
+			</image>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="41" splitType="Stretch">
+			<staticText>
+				<reportElement x="1" y="10" width="119" height="19" uuid="beaef2b3-3ee2-4376-8e54-cff9e26e3809"/>
+				<textElement textAlignment="Justified">
+					<font size="13"/>
+				</textElement>
+				<text><![CDATA[DATA PERINGKAT]]></text>
+			</staticText>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="21" splitType="Stretch">
+			<line>
+				<reportElement x="0" y="-4" width="555" height="1" uuid="60e3823e-68c8-4958-90fb-df8e021fc9a9"/>
+			</line>
+			<line>
+				<reportElement x="0" y="19" width="555" height="1" uuid="76de23a0-b573-442e-a798-4696308e1205"/>
+			</line>
+			<staticText>
+				<reportElement x="22" y="1" width="21" height="20" uuid="f510da22-1599-4638-abb8-930b591bac95"/>
+				<textElement>
+					<font isBold="false"/>
+				</textElement>
+				<text><![CDATA[NO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="114" y="0" width="95" height="20" uuid="c11166f9-085d-418f-a6dd-3d9b1ffb9301"/>
+				<textElement>
+					<font isBold="false"/>
+				</textElement>
+				<text><![CDATA[NIK Karyawan]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="260" y="0" width="128" height="20" uuid="859fc28c-56b0-4417-8d0d-45265c0d1688"/>
+				<textElement>
+					<font isBold="false"/>
+				</textElement>
+				<text><![CDATA[Nama Karyawan]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="456" y="0" width="66" height="20" uuid="6032d969-8f22-44fa-a8ca-88512486b5f4"/>
+				<textElement>
+					<font isBold="false"/>
+				</textElement>
+				<text><![CDATA[Nilai]]></text>
+			</staticText>
+			<line>
+				<reportElement x="0" y="-4" width="1" height="23" uuid="22416978-9dda-4500-866a-4c5408a142f9"/>
+			</line>
+			<line>
+				<reportElement x="554" y="-4" width="1" height="24" uuid="f7c39229-8f54-47bc-875c-610eaaa9b8b9"/>
+			</line>
+			<line>
+				<reportElement x="62" y="-3" width="1" height="22" uuid="c4d3d807-b3b7-45d2-8de1-8c91865c7b6a"/>
+			</line>
+			<line>
+				<reportElement x="232" y="-3" width="1" height="22" uuid="3f07eb7f-8d5b-483a-a261-b291707aabf7"/>
+			</line>
+			<line>
+				<reportElement x="408" y="-3" width="1" height="22" uuid="4386dc04-998e-4e5e-84fe-d28e8e35a522"/>
+			</line>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="27" splitType="Stretch">
+			<textField>
+				<reportElement x="114" y="7" width="95" height="20" uuid="ee3649df-d207-44e4-9349-ca587be1f29b"/>
+				<textFieldExpression><![CDATA[$F{karyawan_nik}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="260" y="7" width="128" height="20" uuid="43b965f1-ad8c-4990-bd25-4b77cdef95c2"/>
+				<textFieldExpression><![CDATA[$F{karyawan_nama}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="456" y="7" width="66" height="20" uuid="ba5af30d-41c9-4b66-b64b-ed4a8989b677"/>
+				<textFieldExpression><![CDATA[$F{hasil_nilai}]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0">
+				<reportElement x="24" y="7" width="16" height="20" uuid="34e10269-262d-4559-913c-f33c1098b42a"/>
+				<textFieldExpression><![CDATA[$V{REPORT_COUNT}]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement x="0" y="26" width="555" height="1" uuid="66d60a89-12f3-4955-83a6-df92cebe2d7b"/>
+			</line>
+			<line>
+				<reportElement x="554" y="-1" width="1" height="28" uuid="d49252a2-6be0-40b4-93fa-6e86c80ccb51"/>
+			</line>
+			<line>
+				<reportElement x="0" y="-2" width="1" height="28" uuid="7a2ff2cd-f9bc-42ea-a921-f2af5109a8f5"/>
+			</line>
+			<line>
+				<reportElement x="62" y="-1" width="1" height="27" uuid="cc855525-7d4e-4b2a-a2e9-45a0e08ee635"/>
+			</line>
+			<line>
+				<reportElement x="232" y="-1" width="1" height="27" uuid="99bf1a3c-50e0-4f8d-ba1a-bb689e40374b"/>
+			</line>
+			<line>
+				<reportElement x="408" y="-2" width="1" height="28" uuid="036b2ee7-d552-4e00-ba7f-2ee499c3381c"/>
+			</line>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="140" splitType="Stretch">
+			<staticText>
+				<reportElement x="405" y="113" width="87" height="20" uuid="45e5328d-a6d8-4555-8e4c-20b5e9c92370"/>
+				<textElement textAlignment="Center">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Abdul Torik]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="414" y="42" width="72" height="20" uuid="8f5f5493-ce23-4b42-92fb-8bab213cd296"/>
+				<textElement textAlignment="Center">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Pemilik Caffee]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="448" y="0" width="106" height="20" uuid="e3a3b9ab-530a-4dd6-99de-54fb3e670c03"/>
+				<textFieldExpression><![CDATA[new SimpleDateFormat("EEEEE dd MMMM YYYY", new java.util.Locale("id")).format(new Date())]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="415" y="0" width="33" height="20" uuid="b8ded73d-f633-4808-b328-fcfaa2d6f9fb"/>
+				<text><![CDATA[Depok,]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="415" y="22" width="60" height="20" uuid="4c174678-07b1-4b0d-993c-e9ac565e9fa7"/>
+				<textElement>
+					<font isBold="false"/>
+				</textElement>
+				<text><![CDATA[Mengetahui, ]]></text>
+			</staticText>
+		</band>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch">
+			<textField pattern="#,##0">
+				<reportElement x="272" y="34" width="13" height="20" uuid="00c76251-48f4-4be6-a1c0-45bc5631b2ad"/>
+				<textFieldExpression><![CDATA[$V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>

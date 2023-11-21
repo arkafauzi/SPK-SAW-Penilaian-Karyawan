@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <Properties>
+    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+      <Color blue="ff" green="f8" red="f8" type="rgb"/>
+    </Property>
+    <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[1215, 726]"/>
+    </Property>
+  </Properties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+    <AuxValue name="designerSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,2,-87,0,0,4,115"/>
+  </AuxValues>
+
+  <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+    <Property name="useNullLayout" type="boolean" value="false"/>
+  </Layout>
+  <SubComponents>
+    <Container class="Desain.RoundPanel" name="roundPanel1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+        <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[965, 580]"/>
+        </Property>
+        <Property name="round" type="int" value="20"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="115" y="61" width="-1" height="610"/>
+        </Constraint>
+      </Constraints>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jsp_about" max="32767" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jsp_about" pref="588" max="32767" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JScrollPane" name="jsp_about">
+          <Properties>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="null"/>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JEditorPane" name="aditorpane_about">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Metode SAW (Simple Additive Weighting)&#xa;Metode Simple Additive Weighting (SAW) dikenal dengan istilah metode penjumlahan terbobot. Konsep dasar pada metode SAW adalah mencari penjumlahan&#xa;terbobot dari rating kinerja pada setiap alternatif di semua atribut. Metode SAW membutuhkan proses normalisasi matriks keputusan (X) &#xa;ke suatu skala yang dapat diperbandingkan dengan semua rating alternatif yang ada.&#xa;&#xa;Login&#xa;1) Jika lupa password atau ingin mengubah password, klik yang bertuliskan &#x201c;Lupa Password ?&#x201d;&#xa;    maka akan menampilkan form ubah password. Jika tidak, maka akan tetap berada diform login.&#xa;2) Masukan username dan password.&#xa;3) Klik tombol login, jika username atau password salah maka akan tampil berupa pesan  &#x201c;Username atau Password salah&#x201d;.&#xa;    Jika username dan password benar, maka akan maka akan tampil berupa pesan &#x201c;Login Berhasil&#x201d; dan klik ok maka akan menampilkan menu utama.&#xa;&#xa;Ubah Password&#xa;1) Jika ingin login klik yang bertuliskan &#x201c;Lupa Password ?&#x201d; maka akan menampilkan form login. Jika tidak, maka akan tetap berada diform ubah password.&#xa;2) Masukan username dan password.&#xa;3) Klik tombol ubah password, jika username salah maka akan tampil berupa pesan  &#x201c;Username salah&#x201d; atau &#x201c;Username hampir benar&#x201d;.&#xa;    Jika username benar, maka akan maka akan tampil berupa pesan &#x201c;Password berhasil diubah&#x201d; &#xa;&#xa;Dashbord&#xa;Setelah login, akan menampilkan form menu utama dan pertama kali yang tampil adalah dashbord. Didalam dashboard terdapat total karyawan, total jabatan,&#xa; total penilaian dan total kriteria.&#xa;&#xa;Karyawan&#xa;1) Input data karyawan mulai dari nik karyawan, nama, alamat, jenis kelamin, jabatan.&#xa;2) Jika data sudah diisi keseluruhan, selanjutnya klik simpan. Maka tampil notif yang berisikan &#x201c;Data Berhasil Disimpan&#x201d;. &#xa;3) Data karyawan akan tampil didalam tabel jika data karyawan sudah diinput.&#xa;4) Jika ingin mengubah data karyawan, klik salah satu data karyawan yang berada didalam tabel. Jika sudah diklik maka akan berpindah ke dalam input, jika data sudah&#xa;    diubah lalu klik ubah. Button ubah akan menampilkan pesan yang berisi ingin mengubah data atau tidak. Jika klik yes maka data karyawan akan berubah, jika no&#xa;    maka data karyawan tidak terubah.&#xa;5) Jika ingin menghapus data karyawan, klik salah satu data karyawan yang berada didalam tabel. Jika sudah diklik maka akan berpindah ke dalam input lalu klik hapus. &#xa;     Button hapus akan menampilkan pesan yang berisi ingin menghapus data atau tidak. Jika klik yes maka data karyawan berhasil dihapus, jika no maka data karyawan &#xa;     tidak terhapus&#xa;6. Jika ingin menghapus keseluruhan data yang berada didalam input, klik bersih.&#xa;7. Apabila ingin mencari data karyawan. input data karyawan maka data akan tampil didalam tabel&#xa;8. Jika ingin mencetak data karyawan, klik cetak&#xa;&#xa;Penilaian&#xa;1) Klik button cari. Maka akan menampilkan data karyawan yang sudah diinput. Klik salah satu data karyawan yang didalam tabel.&#xa;2) Input data penilaian mulai dari nik karyawan dan nama karyawan yang sudah dicari datanya, jam kerja, absensi, kerapihan, keterlambatan.&#xa;3) Jika data sudah diisi keseluruhan, selanjutnya klik tombol simpan. Maka tampil pesan yang berisikan &#x201c;Data Berhasil Disimpan&#x201d;. &#xa;4) Data penilaian akan tampil didalam tabel jika data penilaian sudah diinput.&#xa;5) Jika ingin mengubah data penilaian, klik salah satu data penilaian yang berada didalam tabel. Jika sudah diklik maka akan berpindah ke dalam input, jika data sudah&#xa;    diubah lalu klik tombol ubah. tombol ubah akan menampilkan pesan yang berisi ingin mengubah data atau tidak. Jika klik yes maka data penilaian akan berubah, jika &#xa;    no maka data penilaian tidak terubah.&#xa;6) Jika ingin menghapus data penilaian, klik salah satu data penilaian yang berada didalam tabel. Jika sudah diklik maka akan berpindah ke dalam input lalu klik tombol &#xa;    hapus. Tombol hapus akan menampilkan pesan yang berisi ingin menghapus data atau tidak. Jika klik yes maka data penilaian berhasil dihapus, jika no maka data &#xa;    penilaian tidak terhapus&#xa;7. Jika ingin menghapus keseluruhan data yang berada didalam input, klik bersih.&#xa;8. Apabila ingin mencari data penilaian. Input data penilaian maka data akan tampil didalam tabel&#xa;9. Jika ingin mencetak data penilaian, klik tombol cetak penilaian. Apabila ingin mencetak data nilai, klik tombol cetak nilai. &#xa;&#xa;Rangking&#xa;Didalam from rangking terdapat dua tabel yaitu tabel normalisasi dan peringkat. Untuk mencari nilai peringkat karyawan, klik tombok cari peringkat maka nik, &#xa;nama karyawan dan nilai akan tampil didalam tabel peringkat.Nilai yang tertinggi berada diurutan atas maka bisa menjadi salah satu acuan untuk menjadi &#xa;karyawan terbaik. Jika ingin mencetak peringkat klik tombol cetak.&#xa;&#xa;About&#xa;Penjesalan tentang metode saw dan tata cara penggunaan program.&#xa;&#xa;Logout&#xa;Jika ingin logout dari program, klik panel yang bertuliskan &#x201c;Logout&#x201d; maka from menu utama tertutup dan akan menampilkan form login."/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
