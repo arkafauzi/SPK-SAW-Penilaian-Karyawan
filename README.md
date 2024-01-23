@@ -1,3 +1,5 @@
+Aplikasi Penilaian Karyawan berguna untuk mendata karyawan lalu menilai berdasarkan beberapa kriteria dan parameter kriteria yang titentukan maka akan menampilkan nilai dari parameter tersebut yang nantinya akan mendapatkan nilai normalisasi dan perengkingan.
+
 Login
 ![1 login](https://github.com/arkafauzi/SPK-SAW-Penilaian-Karyawan/assets/108111939/849d5e88-54c4-4111-bdb4-1f63c37560d9)
 
