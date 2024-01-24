@@ -18,5 +18,3 @@ Aplikasi Penilaian Karyawan berguna untuk mendata karyawan lalu menilai berdasar
 ![6 rangking 2](https://github.com/arkafauzi/SPK-SAW-Penilaian-Karyawan/assets/108111939/c64275ea-d772-42d7-9fe8-d45cf4aedb87)
 
 ![8 about](https://github.com/arkafauzi/SPK-SAW-Penilaian-Karyawan/assets/108111939/96605fb5-c010-4002-b933-89639d7ed50a)
-
-![7 logout](https://github.com/arkafauzi/SPK-SAW-Penilaian-Karyawan/assets/108111939/7c851fa1-faa7-4065-8f58-eb954b8742cc)
