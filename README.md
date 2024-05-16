@@ -1,6 +1,9 @@
 Jika ingin membeli program sihlakan kontak dibawah ini :
+
 WA : 085703651342
+
 IG : arkfauzi
+
 User Telegram : @arkfauzi
 
 Aplikasi Penilaian Karyawan berguna untuk mendata karyawan lalu menilai berdasarkan beberapa kriteria dan parameter kriteria yang titentukan maka akan menampilkan nilai dari parameter tersebut yang nantinya akan mendapatkan nilai normalisasi dan perengkingan.
